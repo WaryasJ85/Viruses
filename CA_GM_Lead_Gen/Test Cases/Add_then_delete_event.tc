@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is to add an event then delete that event</description>
+   <name>Add_then_delete_event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cef0881a-9ee4-47de-8613-95bed302699b</testCaseGuid>
+</TestCaseEntity>

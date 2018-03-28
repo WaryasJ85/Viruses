@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Just logging in to say hi</description>
+   <name>Log_in</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf3eb0b6-7854-410a-b657-633887febaec</testCaseGuid>
+</TestCaseEntity>

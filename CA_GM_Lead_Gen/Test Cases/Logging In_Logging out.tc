@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logging in to the website then logging out</description>
+   <name>Logging In_Logging out</name>
+   <tag>GM Canada</tag>
+   <comment></comment>
+   <testCaseGuid>f541bbf3-e8df-45cd-8eee-7db39c7870d4</testCaseGuid>
+</TestCaseEntity>
