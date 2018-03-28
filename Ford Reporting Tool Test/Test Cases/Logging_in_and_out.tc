@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is to test logging into the Ford Reporting Tool</description>
+   <name>Logging_in_and_out</name>
+   <tag>Ford</tag>
+   <comment></comment>
+   <testCaseGuid>80560603-3c2c-48a8-aaed-8666833c2092</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_20</name>
+   <tag></tag>
+   <elementGuidId>c2ab0b44-f64a-4fbc-9416-e0b3e90ccdf1</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-repeat</name>
+      <type>Main</type>
+      <value>item in days</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>setDatepickerDay(item)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'_720kb-datepicker-active': selectedDay === item &amp;&amp; selectedMonth === monthNumber &amp;&amp; selectedYear === year, '_720kb-datepicker-disabled': !isSelectableMinDate(year + '/' + monthNumber + '/' + item ) || !isSelectableMaxDate(year + '/' + monthNumber + '/' + item) || !isSelectableDate(monthNumber, year, item) || !isSelectableDay(monthNumber, year, item),'_720kb-datepicker-today': item === today.getDate() &amp;&amp; monthNumber === (today.getMonth() + 1) &amp;&amp; year === today.getFullYear() &amp;&amp; !selectedDay}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_720kb-datepicker-calendar-day ng-binding ng-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;eventDialog&quot;)/div[@class=&quot;ng-modal-dialog&quot;]/div[@class=&quot;ng-modal-dialog-content&quot;]/div[@class=&quot;edit-box row ng-scope&quot;]/div[@class=&quot;input-field col s12&quot;]/div[@class=&quot;col s8&quot;]/datepicker[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;_720kb-datepicker-calendar _720kb-datepicker-open&quot;]/div[@class=&quot;_720kb-datepicker-calendar-body&quot;]/a[@class=&quot;_720kb-datepicker-calendar-day ng-binding ng-scope&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

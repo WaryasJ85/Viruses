@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This case is for adding a user for the ford reporting tool.</description>
+   <name>Adding A User</name>
+   <tag>Ford</tag>
+   <comment></comment>
+   <testCaseGuid>994ab906-bd33-42a2-ab0e-7bf160648ee2</testCaseGuid>
+</TestCaseEntity>
