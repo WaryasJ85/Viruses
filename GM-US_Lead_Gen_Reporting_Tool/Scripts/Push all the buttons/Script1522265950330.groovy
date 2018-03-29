@@ -98,55 +98,167 @@ WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
 
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_System'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_- US Leadgen/a_System Settings'))
+
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
+
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_System'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_- US Leadgen/a_Plug In Management'))
 
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
+
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_System'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_- US Leadgen/a_Exporter Settings'))
+
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
+
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_System'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_- US Leadgen/a_Provision Keys'))
 
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
+
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_System'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_- US Leadgen/a_The Purginator'))
+
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
+
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_System'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_- US Leadgen/a_Purge History'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_- US Leadgen/a_Dashboard'))
+
+WebUI.delay(5)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Reporting'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Home Page - US Leadgen (3)/a_Daily Emails'))
 
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Reporting'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_- US Leadgen/a_EDC Lead Summary'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_- US Leadgen/i_fa fa-angle-double-left'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_- US Leadgen/i_fa fa-angle-double-left_1'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_- US Leadgen/button_uix-control-right'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_- US Leadgen/em_Submit'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_- US Leadgen/em_Back'))
 
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Reporting'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_- US Leadgen/a_Transmitted Leads'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_- US Leadgen/i_fa fa-angle-double-left'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Page_- US Leadgen/em_Submit'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_- US Leadgen/em_Back_1'))
 
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Reporting'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_- US Leadgen/a_Lead Details'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_- US Leadgen/i_fa fa-angle-double-left'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_- US Leadgen/em_Submit'))
+
+WebUI.delay(5)
+
+WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Reporting'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_- US Leadgen/a_Multi-Brand Details'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_- US Leadgen/i_fa fa-angle-double-left'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_- US Leadgen/em_Submit'))
 
-WebUI.click(findTestObject('Page_- US Leadgen/a_Dashboard'))
+WebUI.delay(5)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_- US Leadgen/a_Dashboard'))
 
