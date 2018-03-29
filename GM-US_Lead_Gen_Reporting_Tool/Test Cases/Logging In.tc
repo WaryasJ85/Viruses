@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test logging in to the US Reporting Tool</description>
+   <name>Logging In</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc59edc5-c0a8-406c-b2a1-49414fc99d73</testCaseGuid>
+</TestCaseEntity>

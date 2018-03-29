@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_uix-control-right</name>
+   <tag></tag>
+   <elementGuidId>23af9c8c-77d0-4d9b-bd9a-aa7d0d8cdfa5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>uix-control-right</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-localekey</name>
+      <type>Main</type>
+      <value>selectAll</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Select All</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;criteriaForm&quot;)/table[2]/tbody[1]/tr[2]/td[3]/div[@class=&quot;uix-multiselect ui-widget&quot;]/div[@class=&quot;multiselect-available-list&quot;]/div[@class=&quot;ui-widget-header ui-corner-tr&quot;]/button[@class=&quot;uix-control-right&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

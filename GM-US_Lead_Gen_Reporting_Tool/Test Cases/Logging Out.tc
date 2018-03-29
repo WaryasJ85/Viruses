@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logging out of the US Lead Gen Reporting Tool</description>
+   <name>Logging Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>129dd509-e0e7-46ea-b437-00706b6a75b1</testCaseGuid>
+</TestCaseEntity>
