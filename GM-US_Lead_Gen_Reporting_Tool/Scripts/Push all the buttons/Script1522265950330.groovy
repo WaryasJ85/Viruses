@@ -20,6 +20,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+not_run: WebUI.openBrowser('')
+
+not_run: WebUI.navigateToUrl('https://us-dev.gmli2.bluewatertech.host')
+
+not_run: WebUI.maximizeWindow()
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.callTestCase(findTestCase('Logging In'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('These are disabled for a reason. DO NOT ENABLE UNLESS YOU ARE TESTING THIS PART ONLY')
+
 WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
 
 WebUI.comment('Mouse over is used to hover over "Administration"')
