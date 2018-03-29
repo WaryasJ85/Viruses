@@ -3,6 +3,8 @@
    <description></description>
    <name>Push all the buttons</name>
    <tag></tag>
-   <comment></comment>
+   <comment>These are disabled for a reason. DO NOT ENABLE UNLESS YOU ARE TESTING THIS PART ONLY
+Mouse over is used to hover over &quot;Administration&quot;
+Delay is used to let the web app load. </comment>
    <testCaseGuid>485dd97e-3d0a-41ad-9c8f-02bae6a6e06f</testCaseGuid>
 </TestCaseEntity>
