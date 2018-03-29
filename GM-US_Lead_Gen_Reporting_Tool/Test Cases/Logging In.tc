@@ -3,6 +3,6 @@
    <description>Test logging in to the US Reporting Tool</description>
    <name>Logging In</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Once this is selected the user can sign in</comment>
    <testCaseGuid>bc59edc5-c0a8-406c-b2a1-49414fc99d73</testCaseGuid>
 </TestCaseEntity>

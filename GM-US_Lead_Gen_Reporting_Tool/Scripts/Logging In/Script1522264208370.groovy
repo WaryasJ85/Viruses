@@ -26,7 +26,9 @@ not_run: WebUI.delay(1)
 
 not_run: WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://us-dev.gmli2.bluewatertech.host/')
+not_run: WebUI.navigateToUrl('https://us-dev.gmli2.bluewatertech.host/')
+
+WebUI.comment('Diabled for a reason. If you want to just run this test case enable then disable once you are done.')
 
 WebUI.delay(2)
 
