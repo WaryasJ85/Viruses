@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Just a start</description>
-   <name>GM- Reporting tool suite</name>
+   <description>This will be the regression testing suite. Any regression tests go in here</description>
+   <name>GM - Regression Suite for Reporting Tool</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-29T15:16:48</lastRun>
-   <mailRecipient>jwaryas@bluewatertech.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>970114b9-bf42-442e-ae72-7660b0a0e74a</testSuiteGuid>
+   <testSuiteGuid>759bd699-6977-42e7-b203-56e49aaee6fc</testSuiteGuid>
    <testCaseLink>
-      <guid>fb62be14-bd9c-434d-8558-fd2063ef7903</guid>
+      <guid>3d8e63ba-f9bf-4524-8d9a-f91ac7ef1a63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Browser Start</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d649dba9-5626-43e0-8db1-f9939708d8f6</guid>
+      <guid>c63f7183-fe2d-4b03-8559-dd28d14b2d8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression - Logging in and Logging out</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>59c8a464-77da-4353-932b-41099b2a9e54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Logging In</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c073221-077f-40e6-9a28-6e53fac7ce2e</guid>
+      <guid>2cded8e3-84ea-4b30-bfbd-7d1800111d4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Push all the buttons</testCaseId>
+      <testCaseId>Test Cases/Regression - Button Pushes</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>25dd2e3f-1c55-4328-8f5f-d6d3bd6110c1</guid>
+      <guid>8b0cc8f1-96d5-40f2-b5f1-8825a4ed4536</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Logging Out</testCaseId>
