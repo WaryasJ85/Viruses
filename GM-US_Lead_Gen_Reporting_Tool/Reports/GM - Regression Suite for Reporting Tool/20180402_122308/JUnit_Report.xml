@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GM - Regression Suite for Reporting Tool" time="660" tests="2" failures="3" errors="0">
+   <testsuite name="GM - Regression Suite for Reporting Tool" tests="2" failures="3" errors="0" time="660" timestamp="2018-04-02 12:23:09" hostname="THE FRANKENSTINE - 10.2.38.51" id="Test Suites/GM - Regression Suite for Reporting Tool">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308"/>
+         <property name="logFiles" value="C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\execution0.log, C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\IEDriverServer.log"/>
+         <property name="attachments" value="C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\1522686383802.png, C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\1522686846459.png, C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\1522686848993.png"/>
+         <property name="hostName" value="THE FRANKENSTINE - 10.2.38.51"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.2.38.51"/>
+         <property name="sessionId" value="93c58008-3962-415c-92f2-5410dc32730b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Regression - Logging in and Logging out" classname="Test Cases/Regression - Logging in and Logging out" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25792/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a1b31bc6-9b7b-4897-9327-589d1e483484)"/>
+         <system-out><![CDATA[2018-04-02 12:23:09 - [TEST_CASE][FAILED] - Test Cases/Regression - Logging in and Logging out: Test Cases/Regression - Logging in and Logging out FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25792/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a1b31bc6-9b7b-4897-9327-589d1e483484)
+
+2018-04-02 12:23:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 12:23:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 12:23:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://us-dev.gmli2.bluewatertech.host' successfully
+
+2018-04-02 12:23:18 - [MESSAGE][PASSED] - Navigate to 'https://us-dev.gmli2.bluewatertech.host' successfully
+
+2018-04-02 12:23:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 12:23:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 12:23:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 12:23:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 12:23:20 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Home Page - US Leadgen/a_Sign In' is hovered
+
+2018-04-02 12:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page - US Leadgen/a_Sign In' is hovered
+
+2018-04-02 12:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home Page - US Leadgen/a_Sign In' is clicked on
+
+2018-04-02 12:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page - US Leadgen/a_Sign In' is clicked on
+
+2018-04-02 12:23:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 12:23:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 12:23:25 - [TEST_STEP][PASSED] - setText: Text 'jwaryas@bluewatertech.com' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Email'
+
+2018-04-02 12:25:30 - [MESSAGE][PASSED] - Text 'jwaryas@bluewatertech.com' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Email'
+
+2018-04-02 12:25:30 - [TEST_STEP][PASSED] - setText: Text 'Droop420!' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Password'
+
+2018-04-02 12:26:15 - [MESSAGE][PASSED] - Text 'Droop420!' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Password'
+
+2018-04-02 12:26:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 12:26:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 12:26:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in - US Leadgen/input_btn btn-default' is clicked on
+
+2018-04-02 12:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in - US Leadgen/input_btn btn-default' is clicked on
+
+2018-04-02 12:26:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 12:26:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 12:26:20 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Home Page - US Leadgen (1)/span_Account' is hovered
+
+2018-04-02 12:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page - US Leadgen (1)/span_Account' is hovered
+
+2018-04-02 12:26:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 12:26:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 12:26:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25792/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a1b31bc6-9b7b-4897-9327-589d1e483484)
+
+2018-04-02 12:26:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25792/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a1b31bc6-9b7b-4897-9327-589d1e483484)
+[[ATTACHMENT|C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\1522686383802.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-02 12:23:09 - [TEST_CASE][FAILED] - Test Cases/Regression - Logging in and Logging out: Test Cases/Regression - Logging in and Logging out FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25792/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a1b31bc6-9b7b-4897-9327-589d1e483484)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browser Start" classname="Test Cases/Browser Start" status="PASSED">
+         <system-out><![CDATA[2018-04-02 12:26:24 - [TEST_CASE][PASSED] - Test Cases/Browser Start: Test Cases/Browser Start
+
+2018-04-02 12:26:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 12:26:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-02 12:26:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 12:26:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 12:26:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 12:26:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://us-dev.gmli2.bluewatertech.host' successfully
+
+2018-04-02 12:27:17 - [MESSAGE][PASSED] - Navigate to 'https://us-dev.gmli2.bluewatertech.host' successfully
+
+2018-04-02 12:27:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-02 12:27:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-02 12:27:22 - [TEST_STEP][PASSED] - comment: Use this test script to open and navigate to the website needed. This all can be edited for other websites too.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logging In" classname="Test Cases/Logging In" status="PASSED">
+         <system-out><![CDATA[2018-04-02 12:27:22 - [TEST_CASE][PASSED] - Test Cases/Logging In: Test Cases/Logging In
+
+2018-04-02 12:27:23 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-02 12:27:23 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-02 12:27:23 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-04-02 12:27:23 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-04-02 12:27:23 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-02 12:27:23 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-02 12:27:23 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-02 12:27:23 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-02 12:27:23 - [TEST_STEP][PASSED] - comment: Diabled for a reason. If you want to just run this test case enable then disable once you are done.
+
+2018-04-02 12:27:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 12:27:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 12:27:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home Page - US Leadgen/a_Sign In' is clicked on
+
+2018-04-02 12:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page - US Leadgen/a_Sign In' is clicked on
+
+2018-04-02 12:31:01 - [TEST_STEP][PASSED] - comment: Once this is selected the user can sign in
+
+2018-04-02 12:31:01 - [TEST_STEP][PASSED] - setText: Text 'jwaryas@bluewatertech.com' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Email'
+
+2018-04-02 12:33:13 - [MESSAGE][PASSED] - Text 'jwaryas@bluewatertech.com' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Email'
+
+2018-04-02 12:33:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 12:33:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 12:33:14 - [TEST_STEP][PASSED] - setText: Text 'Droop420!' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Password'
+
+2018-04-02 12:34:00 - [MESSAGE][PASSED] - Text 'Droop420!' is set on object 'Object Repository/Page_Log in - US Leadgen/input_Password'
+
+2018-04-02 12:34:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 12:34:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 12:34:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in - US Leadgen/input_btn btn-default' is clicked on
+
+2018-04-02 12:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in - US Leadgen/input_btn btn-default' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression - Button Pushes" classname="Test Cases/Regression - Button Pushes" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (3)/a_Held Leads' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)"/>
+         <system-out><![CDATA[2018-04-02 12:34:02 - [TEST_CASE][FAILED] - Test Cases/Regression - Button Pushes: Test Cases/Regression - Button Pushes FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (3)/a_Held Leads' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)
+
+2018-04-02 12:34:02 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-02 12:34:02 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-02 12:34:02 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-02 12:34:02 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-02 12:34:02 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-02 12:34:02 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-02 12:34:02 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-04-02 12:34:02 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-04-02 12:34:02 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-04-02 12:34:02 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-04-02 12:34:02 - [TEST_STEP][PASSED] - comment: These are disabled for a reason. DO NOT ENABLE UNLESS YOU ARE TESTING THIS PART ONLY
+
+2018-04-02 12:34:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Home Page - US Leadgen (1)/span_Administration' is hovered
+
+2018-04-02 12:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page - US Leadgen (1)/span_Administration' is hovered
+
+2018-04-02 12:34:03 - [TEST_STEP][PASSED] - comment: Mouse over is used to hover over "Administration"
+
+2018-04-02 12:34:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 12:34:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 12:34:05 - [TEST_STEP][PASSED] - comment: Delay is used to let the web app load. 
+
+2018-04-02 12:34:05 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (3)/a_Held Leads' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)
+
+2018-04-02 12:34:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (3)/a_Held Leads' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)
+[[ATTACHMENT|C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\1522686846459.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-02 12:34:02 - [TEST_CASE][FAILED] - Test Cases/Regression - Button Pushes: Test Cases/Regression - Button Pushes FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (3)/a_Held Leads' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logging Out" classname="Test Cases/Logging Out" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)"/>
+         <system-out><![CDATA[2018-04-02 12:34:06 - [TEST_CASE][FAILED] - Test Cases/Logging Out: Test Cases/Logging Out FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)
+
+2018-04-02 12:34:06 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-02 12:34:06 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-02 12:34:06 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-02 12:34:06 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-02 12:34:06 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-02 12:34:06 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-02 12:34:06 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-04-02 12:34:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-04-02 12:34:06 - [TEST_STEP][PASSED] - comment: Disabled for reasons. DO NOT ENABLE UNLESS I TELL YOU!
+
+2018-04-02 12:34:06 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Home Page - US Leadgen (1)/span_Account' is hovered
+
+2018-04-02 12:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page - US Leadgen (1)/span_Account' is hovered
+
+2018-04-02 12:34:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 12:34:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 12:34:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)
+
+2018-04-02 12:34:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)
+[[ATTACHMENT|C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180402_122308\\1522686848993.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-02 12:34:06 - [TEST_CASE][FAILED] - Test Cases/Logging Out: Test Cases/Logging Out FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25264/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 93c58008-3962-415c-92f2-5410dc32730b)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-02 12:23:09 - [TEST_SUITE][FAILED] - GM - Regression Suite for Reporting Tool: Test Cases/Regression - Logging in and Logging out FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25792/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a1b31bc6-9b7b-4897-9327-589d1e483484)]]></system-out>
+      <system-err><![CDATA[2018-04-02 12:23:09 - [TEST_SUITE][FAILED] - GM - Regression Suite for Reporting Tool: Test Cases/Regression - Logging in and Logging out FAILED because (of) Unable to click on object 'Object Repository/Page_Home Page - US Leadgen (2)/span_Sign Out' (Root cause: org.openqa.selenium.ElementNotInteractableException: Cannot click on element
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'THEFRANKENSTINE', ip: '10.2.38.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(system), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:25792/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a1b31bc6-9b7b-4897-9327-589d1e483484)]]></system-err>
+   </testsuite>
+</testsuites>

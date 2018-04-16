@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_form-group</name>
+   <tag></tag>
+   <elementGuidId>14020d8e-7223-4f32-ae16-45b3285f34cf</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-group</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;container-fluid page-wrapper row&quot;]/div[@class=&quot;col-sm-10 col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-2&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/form[@class=&quot;vehicleEditForm ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;form-group&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

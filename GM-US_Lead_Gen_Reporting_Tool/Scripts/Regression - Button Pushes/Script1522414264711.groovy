@@ -773,7 +773,7 @@ WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('Page_Home Page - US Leadgen (1)/span_Administration'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Page_- US Leadgen/a_VMM Updates'))
 

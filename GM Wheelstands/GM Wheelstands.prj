@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>The CMS for GM WheelStands</description>
+   <name>GM Wheelstands</name>
+   <tag></tag>
+   <UUID>ea3d4677-5822-48eb-8cb9-1abe3df67350</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>

@@ -4,6 +4,7 @@
    <name>GM - Regression Suite for Reporting Tool</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-04-02T12:23:08</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -11,16 +12,16 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>759bd699-6977-42e7-b203-56e49aaee6fc</testSuiteGuid>
    <testCaseLink>
-      <guid>3d8e63ba-f9bf-4524-8d9a-f91ac7ef1a63</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Browser Start</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c63f7183-fe2d-4b03-8559-dd28d14b2d8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Regression - Logging in and Logging out</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d8e63ba-f9bf-4524-8d9a-f91ac7ef1a63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Browser Start</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>59c8a464-77da-4353-932b-41099b2a9e54</guid>

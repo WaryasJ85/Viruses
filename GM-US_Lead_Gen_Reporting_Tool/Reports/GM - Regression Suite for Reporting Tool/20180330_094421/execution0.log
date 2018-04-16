@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-03-30T09:44:22</date>
+  <millis>1522417462286</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/GM - Regression Suite for Reporting Tool</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">GM - Regression Suite for Reporting Tool</property>
+  <property name="description">This will be the regression testing suite. Any regression tests go in here</property>
+  <property name="id">Test Suites/GM - Regression Suite for Reporting Tool</property>
+</record>
+<record>
+  <date>2018-03-30T09:44:22</date>
+  <millis>1522417462302</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;THE FRANKENSTINE - 10.2.38.51&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">THE FRANKENSTINE - 10.2.38.51</property>
+</record>
+<record>
+  <date>2018-03-30T09:44:22</date>
+  <millis>1522417462302</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-03-30T09:44:22</date>
+  <millis>1522417462302</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.2.38.51&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.2.38.51</property>
+</record>
+<record>
+  <date>2018-03-30T09:44:22</date>
+  <millis>1522417462302</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.3.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.3.1.1</property>
+</record>
+<record>
+  <date>2018-03-30T09:44:22</date>
+  <millis>1522417462545</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Regression - Logging in and Logging out</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Regression - Logging in and Logging out</property>
+  <property name="description">This is to just test the logging in and logging out.</property>
+  <property name="id">Test Cases/Regression - Logging in and Logging out</property>
+  <property name="source">C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Test Cases\\Regression - Logging in and Logging out.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-03-30T09:44:22</date>
+  <millis>1522417462686</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-30T09:44:23</date>
+  <millis>1522417463011</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-03-30T09:44:23</date>
+  <millis>1522417463328</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-30T09:44:23</date>
+  <millis>1522417463331</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-30T09:44:23</date>
+  <millis>1522417463347</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>

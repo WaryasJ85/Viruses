@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CMS Wheelstand log in</description>
+   <name>Logging In</name>
+   <tag>GM, Wheelstand, CMS</tag>
+   <comment></comment>
+   <testCaseGuid>f6ac2967-7137-42c3-a545-24cde4d42bf8</testCaseGuid>
+</TestCaseEntity>
