@@ -4,5 +4,6 @@
    <name>Ford App Mobile Test</name>
    <tag></tag>
    <UUID>908e614d-f436-4283-9a8b-3de7036076ce</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>30</pageLoadTimeout>
 </Project>

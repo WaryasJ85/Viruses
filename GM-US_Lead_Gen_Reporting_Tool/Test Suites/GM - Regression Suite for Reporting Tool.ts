@@ -4,7 +4,7 @@
    <name>GM - Regression Suite for Reporting Tool</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-16T15:06:21</lastRun>
+   <lastRun>2018-04-16T16:06:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

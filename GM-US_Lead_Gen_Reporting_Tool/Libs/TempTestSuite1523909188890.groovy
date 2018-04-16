@@ -27,7 +27,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/jwaryas/Documents/GitHub/Viruses/GM-US_Lead_Gen_Reporting_Tool/Reports/GM - Regression Suite for Reporting Tool/20180416_150621/execution.properties")
+RunConfiguration.setExecutionSettingFile("D:\\Projects\\GitHub\\Viruses\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM - Regression Suite for Reporting Tool\\20180416_160628\\execution.properties")
 
 TestCaseMain.beforeStart()
 
