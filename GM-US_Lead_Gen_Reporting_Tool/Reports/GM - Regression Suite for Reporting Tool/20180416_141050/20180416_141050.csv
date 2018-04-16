@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GM - Regression Suite for Reporting Tool,Chrome 65.0.3325.181,This will be the regression testing suite. Any regression tests go in here,2018-04-16 14:10:52,2018-04-16 14:11:10,18.568s,ERROR
+,,,,,,
+Test Cases/Regression - Logging in and Logging out,Chrome 65.0.3325.181,This is to just test the logging in and logging out.,2018-04-16 14:10:52,2018-04-16 14:10:53,0.762s,ERROR
+,,,,,,
+Test Cases/Browser Start,Chrome 65.0.3325.181,,2018-04-16 14:10:53,2018-04-16 14:11:02,8.693s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-16 14:10:53,2018-04-16 14:10:55,2.140s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-16 14:10:55,2018-04-16 14:10:55,0.254s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-16 14:10:55,2018-04-16 14:10:57,1.154s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-16 14:10:57,2018-04-16 14:11:02,5.020s,PASSED
+comment,Chrome 65.0.3325.181,,2018-04-16 14:11:02,2018-04-16 14:11:02,0.005s,PASSED
+,,,,,,
+Test Cases/Logging In,Chrome 65.0.3325.181,Test logging in to the US Reporting Tool,2018-04-16 14:11:02,2018-04-16 14:11:08,6.645s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-16 14:11:02,2018-04-16 14:11:02,0.003s,NOT_RUN
+delay,Chrome 65.0.3325.181,,2018-04-16 14:11:02,2018-04-16 14:11:02,0.001s,NOT_RUN
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-16 14:11:02,2018-04-16 14:11:02,0.002s,NOT_RUN
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-16 14:11:02,2018-04-16 14:11:02,0.002s,NOT_RUN
+comment,Chrome 65.0.3325.181,,2018-04-16 14:11:02,2018-04-16 14:11:02,0.002s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-16 14:11:02,2018-04-16 14:11:04,2.006s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-16 14:11:04,2018-04-16 14:11:04,0.775s,PASSED
+comment,Chrome 65.0.3325.181,,2018-04-16 14:11:04,2018-04-16 14:11:04,0.002s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-16 14:11:04,2018-04-16 14:11:05,0.231s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-16 14:11:05,2018-04-16 14:11:06,1.005s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-16 14:11:06,2018-04-16 14:11:06,0.137s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-16 14:11:06,2018-04-16 14:11:07,1.005s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-16 14:11:07,2018-04-16 14:11:08,1.361s,PASSED
+,,,,,,
+Test Cases/Regression - Button Pushes,Chrome 65.0.3325.181,This test will just push each button in the website.,2018-04-16 14:11:08,2018-04-16 14:11:09,0.337s,ERROR
+,,,,,,
+Test Cases/Logging Out,Chrome 65.0.3325.181,Logging out of the US Lead Gen Reporting Tool,2018-04-16 14:11:09,2018-04-16 14:11:10,1.663s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-16 14:11:09,2018-04-16 14:11:09,0.002s,NOT_RUN
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-16 14:11:09,2018-04-16 14:11:09,0.001s,NOT_RUN
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-16 14:11:09,2018-04-16 14:11:09,0.002s,NOT_RUN
+callTestCase,Chrome 65.0.3325.181,,2018-04-16 14:11:09,2018-04-16 14:11:09,0.001s,NOT_RUN
+comment,Chrome 65.0.3325.181,,2018-04-16 14:11:09,2018-04-16 14:11:09,0.002s,PASSED
+mouseOver,Chrome 65.0.3325.181,,2018-04-16 14:11:09,2018-04-16 14:11:09,0.145s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-16 14:11:09,2018-04-16 14:11:10,1.006s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-16 14:11:10,2018-04-16 14:11:10,0.397s,PASSED

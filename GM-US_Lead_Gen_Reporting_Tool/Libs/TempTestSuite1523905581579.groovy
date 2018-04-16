@@ -15,11 +15,11 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/GM- Reporting tool suite')
+suiteProperties.put('id', 'Test Suites/GM - Regression Suite for Reporting Tool')
 
-suiteProperties.put('name', 'GM- Reporting tool suite')
+suiteProperties.put('name', 'GM - Regression Suite for Reporting Tool')
 
-suiteProperties.put('description', 'Just a start')
+suiteProperties.put('description', 'This will be the regression testing suite. Any regression tests go in here')
  
 
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
@@ -27,8 +27,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\THE FRANKENSTINE\\Katalon Studio\\GM-US_Lead_Gen_Reporting_Tool\\Reports\\GM- Reporting tool suite\\20180329_151350\\execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/jwaryas/Documents/GitHub/Viruses/GM-US_Lead_Gen_Reporting_Tool/Reports/GM - Regression Suite for Reporting Tool/20180416_150621/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/GM- Reporting tool suite', suiteProperties, [new TestCaseBinding('Test Cases/Browser Start', 'Test Cases/Browser Start',  null), new TestCaseBinding('Test Cases/Logging In', 'Test Cases/Logging In',  null), new TestCaseBinding('Test Cases/Push all the buttons', 'Test Cases/Push all the buttons',  null), new TestCaseBinding('Test Cases/Logging Out', 'Test Cases/Logging Out',  null), new TestCaseBinding('Test Cases/Regression - Logging in and Logging out', 'Test Cases/Regression - Logging in and Logging out',  null)])
+TestCaseMain.startTestSuite('Test Suites/GM - Regression Suite for Reporting Tool', suiteProperties, [new TestCaseBinding('Test Cases/Regression - Logging in and Logging out', 'Test Cases/Regression - Logging in and Logging out',  null), new TestCaseBinding('Test Cases/Browser Start', 'Test Cases/Browser Start',  null), new TestCaseBinding('Test Cases/Logging In', 'Test Cases/Logging In',  null), new TestCaseBinding('Test Cases/Regression - Button Pushes', 'Test Cases/Regression - Button Pushes',  null), new TestCaseBinding('Test Cases/Logging Out', 'Test Cases/Logging Out',  null)])

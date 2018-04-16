@@ -13,13 +13,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\THEFRA~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Regression - Logging in and Logging out\\20180329_111845\\execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/53/nbkx9j493tv0b_k4gs87msf81h06r3/T/Katalon/Test Cases/Regression - Button Pushes/20180416_144923/execution.properties')
 
 TestCaseMain.beforeStart()
-try {
+
+        TestCaseMain.runTestCase('Test Cases/Regression - Button Pushes', new TestCaseBinding('Test Cases/Regression - Button Pushes', [:]), FailureHandling.STOP_ON_FAILURE )
     
-	    TestCaseMain.runTestCase('Test Cases/Regression - Logging in and Logging out', new TestCaseBinding('Test Cases/Regression - Logging in and Logging out', [:]), FailureHandling.STOP_ON_FAILURE )
-    
-} catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Regression - Logging in and Logging out')
-}
