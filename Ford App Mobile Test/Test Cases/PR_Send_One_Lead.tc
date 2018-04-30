@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Purteo Rico app</description>
+   <name>PR_Send_One_Lead</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f67be0fd-5603-4fd0-94cf-c60c1cff1cb9</testCaseGuid>
+</TestCaseEntity>

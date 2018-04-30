@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Testing the mobile automation</description>
+   <name>Moblie test Android</name>
+   <tag></tag>
+   <UUID>9238e205-a111-486d-a198-059ee32bd9ac</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

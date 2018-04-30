@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_2020</name>
+   <tag></tag>
+   <elementGuidId>bd557260-8f85-4e03-8f19-ebe571676510</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>paginateYears(year); showYearsPagination = !showYearsPagination;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2020</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;eventDialog&quot;)/div[@class=&quot;ng-modal-dialog&quot;]/div[@class=&quot;ng-modal-dialog-content&quot;]/div[@class=&quot;edit-box row ng-scope&quot;]/div[@class=&quot;input-field col s12&quot;]/div[@class=&quot;col s8&quot;]/datepicker[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;_720kb-datepicker-calendar _720kb-datepicker-open&quot;]/div[@class=&quot;_720kb-datepicker-calendar-header&quot;]/div[@class=&quot;_720kb-datepicker-calendar-header-middle _720kb-datepicker-calendar-month ng-binding&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

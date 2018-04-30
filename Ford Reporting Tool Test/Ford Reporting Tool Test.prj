@@ -4,5 +4,6 @@
    <name>Ford Reporting Tool Test</name>
    <tag></tag>
    <UUID>a65e8d0b-1754-45b1-8211-0f2203205d9c</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>30</pageLoadTimeout>
 </Project>

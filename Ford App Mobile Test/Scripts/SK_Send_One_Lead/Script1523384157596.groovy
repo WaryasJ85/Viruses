@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: Mobile.startApplication('D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk', false)
+Mobile.startApplication('D:\\Projects\\2017\\Ford\\Version 2.8 SK\\com.bluewatertech.droid.ford.lg.sk.apk', false)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
@@ -161,139 +161,141 @@ Mobile.tap(findTestObject('android.widget.Button3 - Keep'), 15)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.comment('This below can be enabled to send more leads if needed for short tests')
+
 Mobile.tap(findTestObject('android.widget.Button0 - Begin Survey'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 not_run: Mobile.tapAndHoldAtPosition(140, 130, 5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Switch0 - OFF'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Business', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText1'), 0)
 
-not_run: Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText0'), 'Test', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText2'), 0)
 
-not_run: Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText1L'), 'Test', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText3'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText2E'), 'jason@mailinator.com', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText4'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText3P'), '12345678901234567', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText5'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText4B'), 'Test Business', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText6'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView10 - Jeju-do'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Submit', FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup30'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - 0 - 30 Days'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup32'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Customer Contact Center Contacting Me'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup36'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Ford'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup40'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView3 - Mondeo'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup42'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Jeju Exhibition Center (Premier Motors)'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button1 - Submit'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button3 - Take Photo'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button3 - Keep'), 15)
 
@@ -301,137 +303,137 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button0 - Begin Survey'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 not_run: Mobile.tapAndHoldAtPosition(140, 130, 5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Switch0 - OFF'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Business', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText1'), 0)
 
-not_run: Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText0'), 'Test', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText2'), 0)
 
-not_run: Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText1L'), 'Test', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText3'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText2E'), 'jason@mailinator.com', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText4'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText3P'), '12345678901234567', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText5'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText4B'), 'Test Business', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText6'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView10 - Jeju-do'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Submit', FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup30'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - 0 - 30 Days'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup32'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Customer Contact Center Contacting Me'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup36'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Ford'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup40'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView3 - Mondeo'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup42'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Jeju Exhibition Center (Premier Motors)'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button1 - Submit'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button3 - Take Photo'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button3 - Keep'), 15)
 
@@ -439,137 +441,137 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button0 - Begin Survey'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 not_run: Mobile.tapAndHoldAtPosition(140, 130, 5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Switch0 - OFF'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Business', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText1'), 0)
 
-not_run: Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText0'), 'Test', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText2'), 0)
 
-not_run: Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText1L'), 'Test', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText3'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText2E'), 'jason@mailinator.com', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText4'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText3P'), '12345678901234567', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText5'), 0)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('android.widget.EditText4B'), 'Test Business', 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.EditText6'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView10 - Jeju-do'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.scrollToText('Submit', FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup30'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - 0 - 30 Days'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup32'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Customer Contact Center Contacting Me'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup36'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Ford'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup40'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView3 - Mondeo'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.view.ViewGroup42'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.TextView1 - Jeju Exhibition Center (Premier Motors)'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button1 - Submit'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button3 - Take Photo'), 15)
 
-not_run: Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('android.widget.Button3 - Keep'), 15)
 

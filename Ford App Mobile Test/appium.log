@@ -1,24 +1,19 @@
 [Appium] Welcome to Appium v1.7.2
 [Appium] Non-default server args:
-[Appium]   port: 52974
-[Appium]   chromeDriverPort: 52975
-[Appium]   tmpDir: C:\Users\NOTOSX~1\AppData\Local\Temp\\Katalon\Appium\Temp1523546552863
-[Appium] Appium REST http interface listener started on 0.0.0.0:52974
+[Appium]   port: 63960
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 63961
+[Appium]   tmpDir: C:\Users\NOTOSX~1\AppData\Local\Temp\\Katalon\Appium\Temp1525114043993
+[Appium] Appium REST http interface listener started on 0.0.0.0:63960
 [HTTP] --> GET /wd/hub/status {}
-[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
-[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
-[HTTP] <-- GET /wd/hub/status 200 6 ms - 72 
+[HTTP] <-- GET /wd/hub/status 200 7 ms - 72 
 [HTTP] --> GET /wd/hub/status {}
-[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
-[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
 [HTTP] <-- GET /wd/hub/status 200 2 ms - 72 
-[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"98efea81057a8bc5"},"capabilities":{"desiredCapabilities":{"app":"D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"98efea81057a8bc5"},"firstMatch":[{"platformName":"android"}]}}
-[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"98efea81057a8bc5"},null,{"desiredCapabilities":{"app":"D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"98efea81057a8bc5"},"firstMatch":[{"platformName":"android"}]}]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1523546556014 (11:22:36 GMT-0400 (Eastern Daylight Time))
-[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"D:\\Projects\\20... into desiredCapabilities object {"app":"D:\\Projects\\2017\\Ford\\com.bluewater...
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Projects\\2017\\Ford\\Version 2.7 MEA\\com.bluewatertech.droid.ford.lg.mea.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"98efea81057a8bc5"},"capabilities":{"desiredCapabilities":{"app":"D:\\Projects\\2017\\Ford\\Version 2.7 MEA\\com.bluewatertech.droid.ford.lg.mea.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"98efea81057a8bc5"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"D:\\Projects\\20... into desiredCapabilities object {"app":"D:\\Projects\\2017\\Ford\\Version 2.7 M...
 [Appium] Creating new AndroidUiautomator2Driver (v0.11.0) session
 [Appium] Capabilities:
-[Appium]   app: D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk
+[Appium]   app: D:\Projects\2017\Ford\Version 2.7 MEA\com.bluewatertech.droid.ford.lg.mea.apk
 [Appium]   autoGrantPermissions: true
 [Appium]   automationName: uiautomator2
 [Appium]   deviceName: samsung SM-T713 (Android 7.0)
@@ -29,265 +24,65 @@
 [Appium]   platformName: android
 [Appium]   udid: 98efea81057a8bc5
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: 1eda76e6-72af-4aeb-81ff-7430e743da2f
-[BaseDriver] Using local app 'D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk'
-[debug] [UiAutomator2] Checking whether app is actually present
-[debug] [AndroidDriver] Getting Java version
+[BaseDriver] Session created with session id: 15c65394-d693-4e07-b3c4-97eb019df977
+[BaseDriver] Using local app 'D:\Projects\2017\Ford\Version 2.7 MEA\com.bluewatertech.droid.ford.lg.mea.apk'
 [AndroidDriver] Java version is: 1.8.0_102
 [ADB] Checking whether adb is present
 [ADB] Using adb.exe from C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe
 [AndroidDriver] Retrieving device list
-[debug] [ADB] Trying to find a connected android device
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
 [AndroidDriver] Using device: 98efea81057a8bc5
 [ADB] Checking whether adb is present
-[debug] [ADB] Setting device id to 98efea81057a8bc5
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","getprop","ro.build.version.sdk"]
-[debug] [ADB] Current device property 'ro.build.version.sdk': 24
-[debug] [ADB] Device API level: 24
-[debug] [AndroidDriver] Parsing package and activity from app manifest
 [ADB] Checking whether aapt is present
 [ADB] Using aapt.exe from C:\Users\Not OSX\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
 [ADB] Extracting package and launch activity from manifest
-[debug] [ADB] badging package: com.bluewatertech.droid.ford.lg.sk
-[debug] [ADB] badging act: md51f1222eaf9c602f67814d4702b978f22.SplashActivity
-[debug] [AndroidDriver] Parsed package and activity are: com.bluewatertech.droid.ford.lg.sk/md51f1222eaf9c602f67814d4702b978f22.SplashActivity
 [ADB] Getting device platform version
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","getprop","ro.build.version.release"]
-[debug] [ADB] Current device property 'ro.build.version.release': 7.0
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","wm","size"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","wm","density"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","getprop","ro.product.model"]
-[debug] [ADB] Current device property 'ro.product.model': SM-T713
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","getprop","ro.product.manufacturer"]
-[debug] [ADB] Current device property 'ro.product.manufacturer': samsung
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","am","force-stop","io.appium.uiautomator2.server"]
 [ADB] Checking whether aapt is present
-[debug] [ADB] Getting install status for io.appium.uiautomator2.server
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","list","packages","io.appium.uiautomator2.server"]
-[debug] [ADB] App is installed
-[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","list","packages","io.appium.uiautomator2.server.test"]
-[debug] [ADB] App is installed
-[debug] [ADB] Getting package info for io.appium.uiautomator2.server
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","dumpsys","package","io.appium.uiautomator2.server"]
-[debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","list","instrumentation"]
-[debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","wait-for-device"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","echo","ping"]
 [AndroidDriver] setDeviceLanguageCountry requires language or country.
 [AndroidDriver] Got language: 'null' and country: 'null'
-[debug] [Logcat] Starting logcat capture
-[debug] [AndroidDriver] Pushing settings apk to device...
-[debug] [ADB] Getting install status for io.appium.settings
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","list","packages","io.appium.settings"]
-[debug] [ADB] App is installed
-[debug] [ADB] Getting package info for io.appium.settings
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","dumpsys","package","io.appium.settings"]
 [ADB] Checking whether aapt is present
-[debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
-[debug] [ADB] Device API level: 24
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","dumpsys","package","io.appium.settings"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","dump","io.appium.settings"]
-[debug] [ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","ps"]
-[debug] [ADB] Device API level: 24
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","appops","set","io.appium.settings","android:mock_location","allow"]
-[debug] [AndroidDriver] Pushing unlock helper app to device...
-[debug] [ADB] Getting install status for io.appium.unlock
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","list","packages","io.appium.unlock"]
-[debug] [ADB] App is installed
-[debug] [ADB] Getting package info for io.appium.unlock
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","dumpsys","package","io.appium.unlock"]
 [ADB] Checking whether aapt is present
-[debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
-[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8202
-[debug] [ADB] Forwarding system: 8202 to device: 6790
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","forward","tcp:8202","tcp:6790"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","dumpsys","window"]
 [AndroidDriver] Screen already unlocked, doing nothing
-[debug] [AndroidDriver] Extracting strings from apk D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk null C:\Users\NOTOSX~1\AppData\Local\Temp\Katalon\Appium\Temp1523546552863\com.bluewatertech.droid.ford.lg.sk
-[debug] [ADB] Extracting strings for language: default
-[debug] [ADB] Device API level: 24
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","getprop","persist.sys.locale"]
-[debug] [ADB] Current device property 'persist.sys.locale': en-US
-[debug] [ADB] No strings.xml for language 'en', getting default strings.xml
-[debug] [ADB] Reading strings from converted strings.json
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","push","C:\\Users\\NOTOSX~1\\AppData\\Local\\Temp\\Katalon\\Appium\\Temp1523546552863\\com.bluewatertech.droid.ford.lg.sk\\strings.json","/data/local/tmp"]
-[debug] [ADB] Checking app cert for D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk
 [ADB] Using apksigner.bat from C:\Users\Not OSX\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat
-[debug] [ADB] Starting 'C:\Users\Not OSX\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'verify,D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk'
-[debug] [ADB] 'D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk' is not signed with debug cert.
-[debug] [ADB] Zip-aligning 'D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk'
 [ADB] Checking whether zipalign is present
 [ADB] Using zipalign.exe from C:\Users\Not OSX\.katalon\tools\android_sdk\build-tools\28.0.0\zipalign.exe
-[debug] [ADB] Signing 'D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk' with default cert
-[debug] [ADB] Starting 'C:\Users\Not OSX\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'sign,--key,C:\Users\Not OSX\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\Not OSX\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,D:\Projects\2017\Ford\com.bluewatertech.droid.ford.lg.sk.apk'
-[ADB] Cannot use apksigner tool for signing. Defaulting to sign.jar. Original error: Command ''C:\\Users\\Not OSX\\.katalon\\tools\\android_sdk\\build-tools\\28.0.0\\apksigner.bat' sign --key 'C:\\Users\\Not OSX\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.pk8' --cert 'C:\\Users\\Not OSX\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.x509.pem' D\:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk' exited with code 1
-[debug] [ADB] Resigning apk.
-[AndroidDriver] Remote apk path is /data/local/tmp/e03db8d005451118ced95da5be5ca745.apk
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","ls","/data/local/tmp/e03db8d005451118ced95da5be5ca745.apk"]
-[debug] [AndroidDriver] Checking if app is installed
-[debug] [ADB] Getting install status for com.bluewatertech.droid.ford.lg.sk
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","list","packages","com.bluewatertech.droid.ford.lg.sk"]
-[debug] [ADB] App is installed
-[debug] [ADB] Device API level: 24
+[ADB] Cannot use apksigner tool for signing. Defaulting to sign.jar. Original error: Command ''C:\\Users\\Not OSX\\.katalon\\tools\\android_sdk\\build-tools\\28.0.0\\apksigner.bat' sign --key 'C:\\Users\\Not OSX\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.pk8' --cert 'C:\\Users\\Not OSX\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.x509.pem' 'D:\\Projects\\2017\\Ford\\Version 2.7 MEA\\com.bluewatertech.droid.ford.lg.mea.apk'' exited with code 1
+[AndroidDriver] Remote apk path is /data/local/tmp/6714b1eb1781226a0d0cdc04fa8ea054.apk
 [ADB] Checking whether aapt is present
 [ADB] Extracting package and launch activity from manifest
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","dump","com.bluewatertech.droid.ford.lg.sk"]
-[debug] [ADB] Got the following command chunks to execute: pm,grant,com.bluewatertech.droid.ford.lg.sk,android.permission.SET_TIME,;
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","grant","com.bluewatertech.droid.ford.lg.sk","android.permission.SET_TIME",";"]
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","pm","grant","com.bluewatertech.droid.ford.lg.sk","android.permission.SET_TIME",";"]
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","am","force-stop","io.appium.uiautomator2.server"]
 [UiAutomator2] Starting uiautomator2 server v0.3.0
 [UiAutomator2] Running command: 'adb -s 98efea81057a8bc5 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
-[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8202/wd/hub/session] with body: {"desiredCapabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"android","udid":"98efea81057a8bc5"},"app":"D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"98efea81057a8bc5","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"android","udid":"98efea81057a8bc5","deviceUDID":"98efea81057a8bc5","platformVersion":"7.0","deviceScreenSize":"1536x2048","deviceScreenDensity":320,"deviceModel":"SM-T713","deviceManufacturer":"samsung","appPackage":"com.bluewatertech.droid.f...
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb","status":0,"value":"Created Session"}
-[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.bluewatertech.droid.ford.lg.sk/md51f1222eaf9c602f67814d4702b978f22.SplashActivity'. Starting it ourselves
-[debug] [ADB] Device API level: 24
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","am","start","-W","-n","com.bluewatertech.droid.ford.lg.sk/md51f1222eaf9c602f67814d4702b978f22.SplashActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
-[debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.bluewatertech.droid.ford.lg.sk' and activity: 'md51f1222eaf9c602f67814d4702b978f22.SplashActivity' to be focused
-[debug] [ADB] Possible activities, to be checked: 'md51f1222eaf9c602f67814d4702b978f22.SplashActivity'
-[debug] [ADB] Getting focused package and activity
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","dumpsys","window","windows"]
-[debug] [ADB] Found package: 'com.bluewatertech.droid.ford.lg.sk' and fully qualified activity name : 'md51f1222eaf9c602f67814d4702b978f22.SplashActivity'
-[Appium] New AndroidUiautomator2Driver session created successfully, session 1eda76e6-72af-4aeb-81ff-7430e743da2f added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1523546581844 (11:23:01 GMT-0400 (Eastern Daylight Time))
-[debug] [MJSONWP] Responding to client with driver.createSession() result: {"app":"D:\\Projects\\2017\\Ford\\com.bluewatertech.droid.ford.lg.sk.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T713 (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"android","udid":"98efea81057a8bc5"}
-[HTTP] <-- POST /wd/hub/session 200 25829 ms - 381 
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.bluewatertech.droid.ford.lg.mea/md55b2e00666a4acaabd1f79723f708e4dc.SplashActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 15c65394-d693-4e07-b3c4-97eb019df977 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 30165 ms - 399 
 [HTTP] --> GET /wd/hub/status {}
-[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
-[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
 [HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
-[HTTP] --> POST /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/timeouts {"type":"implicit","ms":60000}
-[debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",60000,"1eda76e6-72af-4aeb-81ff-7430e743da2f"]
-[debug] [BaseDriver] Set implicit wait to 60000ms
-[debug] [MJSONWP] Responding to client with driver.timeouts() result: null
-[HTTP] <-- POST /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/timeouts 200 7 ms - 76 
-[HTTP] --> GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source {}
+[HTTP] --> POST /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/timeouts 200 9 ms - 76 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source {}
 [MJSONWP] Driver proxy active, passing request on via HTTP proxy
-[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source] to [GET http://localhost:8202/wd/hub/session/29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb/source] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"1\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"com.bluewatertech.droid.ford.lg.sk\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][2048,1536]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"com.bluewatertech.droid.ford.lg.sk\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"...
-[JSONWP Proxy] Replacing sessionId 29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb with 1eda76e6-72af-4aeb-81ff-7430e743da2f
-[HTTP] <-- GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source 200 1529 ms - 2396 
-[HTTP] --> GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/screenshot {}
-[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["1eda76e6-72af-4aeb-81ff-7430e743da2f"]
-[debug] [ADB] Device API level: 24
-[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAACAAAAAYACAYAAADimKhtAACAAElEQVR4AezBf4zXhWE//ue97n3HvbkDORCVN/7k5OchcIVSp/JRa5nOFm2t2mRNNaZbzi1L9leTbX99+8/SbEvWJcvi/bPFNp0TY9fapdVgbRWKxh5agfNH4U5+lIPS6gECb34d9837j0sI8QeiUF/N4/Fo+sY3vjEWAAAAAAAAAKDUigAAAAAAAAAApVcEAAAAAAAAACi9IgAAAAAAAABA6RUBAAAAAAAAAEqvCAAAAAAAAABQekUAAAAAAAAAgNIrAgAAAAAAAACUXhEAAAAAAAAAoPSKAAAAAAAAAAClVwQAAAAAAAAAKL1KAAAAAAAAAN5HtVrNjBkz0tDZ2ZmRkZE07N69O/V6PcAnQyUAAAAAAADAeVOr1TIyMpJ6vZ4zUavVsnLlygwMDKS/vz/nS2dnZ5YtW5bu7u7UarW8l+Hh4QwMDKS/vz8jIyPhg11yySWZOnVq3s3hw4ezbdu2wNmoBAAAAAAAADgvarVaent7MzIykr6+vtTr9byfWq2W3t7eVKvVVKvV9Pf351zr7OzMypUrs2zZspyJWq2WWq2WlStXpr+/P2vWrMnIyEg+qgsvvDBLly7N9OnT09zcnH379mXz5s0ZHBzMB5kyZUqWLVuWiy++OJVKJW+//XZeeuml7Nq1K+9n7ty5+dSnPpW2trb87ne/y3PPPZcDBw6k7BYvXpwTJ05kYGAgH9bixYtz4sSJDAwM5KPo7OxMT09PLrnkkrS2tubw4cPZtm1bXnzxxXyQzs7O9PT05JJLLklra2sOHz6cbdu25cUXX8zHZf78+Zk+fXqOHTuWF154IR+kp6cnkyZNSkO9Xs8vf/nLnIkpU6Zk0aJFGffmm29m586d+bhUAgAAAAAAAJwXd9xxR6rVaqrVanp7e9PX15d6vZ53U6vV0tvbm2q1mvNl2bJluffee3OqoaGhDAwMZHh4OPV6PcPDw6nVaqlWq6nVaunu...
-[HTTP] <-- GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/screenshot 200 1184 ms - 192306 
-[HTTP] --> GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source {}
+[JSONWP Proxy] Replacing sessionId 07de82cf-f0fd-4fac-b9b2-866732b3586e with 15c65394-d693-4e07-b3c4-97eb019df977
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source 200 1740 ms - 2402 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot {}
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot 200 1293 ms - 200294 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source {}
 [MJSONWP] Driver proxy active, passing request on via HTTP proxy
-[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source] to [GET http://localhost:8202/wd/hub/session/29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb/source] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"1\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"com.bluewatertech.droid.ford.lg.sk\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][2048,1536]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"com.bluewatertech.droid.ford.lg.sk\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"...
-[JSONWP Proxy] Replacing sessionId 29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb with 1eda76e6-72af-4aeb-81ff-7430e743da2f
-[HTTP] <-- GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source 200 116 ms - 11355 
-[HTTP] --> GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/screenshot {}
-[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["1eda76e6-72af-4aeb-81ff-7430e743da2f"]
-[debug] [ADB] Device API level: 24
-[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAACAAAAAYACAYAAADimKhtAACAAElEQVR4AezBB2CVhaH47d97zklyshckEqYRVAiIe+C+bisusLa3rda20mVvtcv2u72342v/tcPa3YqttnpbJx1OrLXWgVJFASEoFcIIMkLCSQ7ZJ+e8X0/vl/65XIUwJfh7nmDY514OkSRJkiRJkiRJkiRJg1oESZIkSZIkSZIkSZI06EWQJEmSJEmSJEmSJEmDXgRJkiRJkiRJkiRJkjToRZAkSZIkSZIkSZIkSYNeBEmSJEmSJEmSJEmSNOhFkCRJkiRJkiRJkiRJg14ESZIkSZIkSZIkSZI06MXYzTLdSa4au45vfGI6O+PzN/2aX70+niCagyRJkiRJkiRJkiRJGpgYu1GYTnH/JycyvHQy81Z1EBCwI0JCrrniYq7oiXDxzxpo78kgSZIkSZIkSZIkSZK2L8JuND6sp25YPtFIhDAMCYEQCIEQCIEQCIEQCIEQCIGQvwshFo0woSafuvjrSJIkSZIkSZIkSZKkgYmxG/3pO+/jkcVttHSk2VlL1kNlYS+zvnA2Iz6/CEmSJEmSJEmSJElvrZL8KHXD4mSNLM+lMdFLVv26bpJdaSTtG2LsZj/6y0YWruliV0wekc95E0uRJEmSJEmSJEmS9jd1NXEaEymSXWkGoq4mzqfPrObRJUnunpdgbxlZnss7jyrj3LpS6mrivJn6td3Mrm/jnhdbaUz0ou0bf0CcEeW5vJG2rjTPr+xA2hkxJEmSJEmSJEmSJO0VdTVxZs2opTGRYtrMBpJdabalribOrBm1lORHKc2Pcve8BHvayPJcPnVmFZcfXc5A1NXEqauJ8+mzqrl7XoLv/qmJxkQvu+rAIXlcdmQZBw3NIycasLY1xSP1bcxZ3sH21JTlcPlR5RxSHSc3FtCY6OXeF1tZvLaLbTn9kGKmHVFGSX6UZU093PzURjZs7mOwu/CwUnrTIbPrk+yoCw8rpTcdMrs+ya4YWZ7LJUeUcWh1...
-[HTTP] <-- GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/screenshot 200 1195 ms - 193382 
-[HTTP] --> GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source {}
+[JSONWP Proxy] Replacing sessionId 07de82cf-f0fd-4fac-b9b2-866732b3586e with 15c65394-d693-4e07-b3c4-97eb019df977
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source 200 135 ms - 11378 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot {}
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot 200 1234 ms - 196498 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source {}
 [MJSONWP] Driver proxy active, passing request on via HTTP proxy
-[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source] to [GET http://localhost:8202/wd/hub/session/29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb/source] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"1\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"com.bluewatertech.droid.ford.lg.sk\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][2048,1536]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"com.bluewatertech.droid.ford.lg.sk\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"...
-[JSONWP Proxy] Replacing sessionId 29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb with 1eda76e6-72af-4aeb-81ff-7430e743da2f
-[HTTP] <-- GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/source 200 247 ms - 34836 
-[HTTP] --> GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/screenshot {}
-[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["1eda76e6-72af-4aeb-81ff-7430e743da2f"]
-[debug] [ADB] Device API level: 24
-[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAACAAAAAYACAYAAADimKhtAACAAElEQVR4AezBCXzUhYH3/+/8ZiaZJJOZXBAIQSQaOcItHhyCFSjHEg9A0XWVigreK7YWfVwURFatRRTaWsGixedf5Ui9qCD1PoAqIFcQGxiukJADJplkMpNMJvP8f7uv2Sd//kCCHDr6eb8t7X+9NSIAAAAAAAAAAAAAABDTDAEAAAAAAAAAAAAAgJhnCAAAAAAAAAAAAAAAxDxDAAAAAAAAAAAAAAAg5hkCAAAAAAAAAAAAAAAxzxAAAAAAAAAAAAAAAIh5hgAAAAAAAAAAAAAAQMwzBAAAAAAAAAAAAAAAYp5Np1lT0Kdbzi/Vk/dO0Hfx0Lz/R38+2E0Wq10AAAAAAAAAAAAAAKB1bDqNIuGQ3v73Hurg7q0N+/yyyKKTEVFE99x8tW6uN3T1Hz2qrW8SAAAAAAAAAAAAAABomaHTqFukUHntE2Q1DEUiEUUkRSRFJEUkRSRFJEUkRSRFJEUkRSRF9P+KSDaroe5ZCcpzHBQAAAAAAAAAAAAAAGgdm06j9397k1Ztr9Zhf1jf1Y5DUnpSgwoe/rmyH9omAAAAAAAAAAAAAN8vV4JVee0dMnVMjdMBb4NMhaVB+QJhAfhhsOk0+93HFdpSHNCp6J2doNE93AIAAAAAAAAAAAB+bPKyHDrgDckXCKs18rIc+uXwTL23w6elG7w6Wzqmxum6C1M0Ks+tvCyHjqewJKjVhdVatrFKB7wNQsu6tXMoOzVOx1IdCOvLvX4B34VNAAAAAAAAAAAAAM6KvCyHCqbk6IA3pPELPfIFwjqRvCyHCqbkyJVglTvBqqUbvDrTOqbG6YHhbTWxf6paIy/Lobwsh345IlNLN3j17PvlOuBt0KnqnBGva/ul6Lw28bJbLSqpCmlVYbW+2O1XS7JS7Jp4Yaq6ZDoUZ7PogLdByzdWaXtJQCfysy7JGt83Ra4Eq3aV1+vFTytUVtOoWHdlL7cawhGtLvTpZF3Z...
-[HTTP] <-- GET /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f/screenshot 200 1154 ms - 300926 
-[HTTP] --> DELETE /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f {}
-[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["1eda76e6-72af-4aeb-81ff-7430e743da2f"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1523546727150 (11:25:27 GMT-0400 (Eastern Daylight Time))
-[Appium] Removing session 1eda76e6-72af-4aeb-81ff-7430e743da2f from our master session list
-[debug] [UiAutomator2] Deleting UiAutomator2 session
-[debug] [UiAutomator2] Deleting UiAutomator2 server session
-[debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8202/wd/hub/session/29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"29f1ecfe-bb40-49da-8eec-5b65bdfb6cfb\",\"status\":0,\"value\":\"Session deleted\"}"
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","shell","am","force-stop","com.bluewatertech.droid.ford.lg.sk"]
-[debug] [UiAutomator2] [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
-[debug] [UiAutomator2] [UIAutomator2] Time: 150.068
-[debug] [UiAutomator2] [UIAutomator2] OK (1 test)
-[HTTP] --> DELETE /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f {}
-[HTTP] <-- DELETE /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f 404 1 ms - 131 
-[debug] [Logcat] Stopping logcat capture
-[debug] [ADB] Removing forwarded port socket connection: 8202 
-[debug] [ADB] Running 'C:\Users\Not OSX\.katalon\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","98efea81057a8bc5","forward","--remove","tcp:8202"]
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1523546727946 (11:25:27 GMT-0400 (Eastern Daylight Time))
-[debug] [MJSONWP] Received response: null
-[debug] [MJSONWP] But deleting session, so not returning
-[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/1eda76e6-72af-4aeb-81ff-7430e743da2f 200 797 ms - 76 
+[JSONWP Proxy] Replacing sessionId 07de82cf-f0fd-4fac-b9b2-866732b3586e with 15c65394-d693-4e07-b3c4-97eb019df977
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source 200 113 ms - 10278 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot {}
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot 200 1222 ms - 257214 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 07de82cf-f0fd-4fac-b9b2-866732b3586e with 15c65394-d693-4e07-b3c4-97eb019df977
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/source 200 77 ms - 5101 
+[HTTP] --> GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot {}
+[HTTP] <-- GET /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977/screenshot 200 1316 ms - 227294 
+[HTTP] --> DELETE /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977 {}
+[Appium] Removing session 15c65394-d693-4e07-b3c4-97eb019df977 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/15c65394-d693-4e07-b3c4-97eb019df977 200 795 ms - 76 

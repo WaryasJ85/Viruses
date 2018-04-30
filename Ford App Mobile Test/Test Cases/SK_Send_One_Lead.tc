@@ -3,6 +3,6 @@
    <description>South Korea app sending one lead</description>
    <name>SK_Send_One_Lead</name>
    <tag></tag>
-   <comment></comment>
+   <comment>This below can be enabled to send more leads if needed for short tests</comment>
    <testCaseGuid>2c0a9334-9e97-43b8-b8d1-fb813c170044</testCaseGuid>
 </TestCaseEntity>

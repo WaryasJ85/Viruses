@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_2018</name>
+   <tag></tag>
+   <elementGuidId>03919700-1385-4872-b07b-d9d6c9c5d089</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'_720kb-datepicker-active': y === year, '_720kb-datepicker-disabled': !isSelectableMaxYear(y) || !isSelectableMinYear(y)}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>setNewYear(y)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-repeat</name>
+      <type>Main</type>
+      <value>y in paginationYears track by $index</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding ng-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2018</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;eventDialog&quot;)/div[@class=&quot;ng-modal-dialog&quot;]/div[@class=&quot;ng-modal-dialog-content&quot;]/div[@class=&quot;edit-box row ng-scope&quot;]/div[@class=&quot;input-field col s12&quot;]/div[@class=&quot;col s8&quot;]/datepicker[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;_720kb-datepicker-calendar _720kb-datepicker-open&quot;]/div[@class=&quot;_720kb-datepicker-calendar-header&quot;]/div[@class=&quot;_720kb-datepicker-calendar-years-pagination&quot;]/a[@class=&quot;ng-binding ng-scope&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
