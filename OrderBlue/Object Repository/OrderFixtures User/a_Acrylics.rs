@@ -3,18 +3,8 @@
    <description></description>
    <name>a_Acrylics</name>
    <tag></tag>
-   <elementGuidId>bb1e9f4f-b954-40d8-9c95-7f190c4572a2</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>id(&quot;21&quot;)/a[@class=&quot;layer2&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Acrylics' or . = 'Acrylics')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>cf2249fc-3b08-4656-ba79-2a84a73c9eed</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>layer2</value>
+      <value>layer3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +32,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;21&quot;)/a[@class=&quot;layer2&quot;]</value>
+      <value>id(&quot;42&quot;)/a[@class=&quot;layer3&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

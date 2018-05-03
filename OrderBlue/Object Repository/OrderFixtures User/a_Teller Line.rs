@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Acrylics</name>
+   <name>a_Teller Line</name>
    <tag></tag>
-   <elementGuidId>bb1e9f4f-b954-40d8-9c95-7f190c4572a2</elementGuidId>
+   <elementGuidId>4337b7af-077a-4ef9-a04b-88fb9e05de58</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>id(&quot;21&quot;)/a[@class=&quot;layer2&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Acrylics' or . = 'Acrylics')]</value>
+         <value>id(&quot;14&quot;)/a[@class=&quot;layer2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,13 +31,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Acrylics</value>
+      <value>Teller Line</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;21&quot;)/a[@class=&quot;layer2&quot;]</value>
+      <value>id(&quot;14&quot;)/a[@class=&quot;layer2&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Acrylics</name>
+   <name>a_Teller Line Numbers</name>
    <tag></tag>
-   <elementGuidId>bb1e9f4f-b954-40d8-9c95-7f190c4572a2</elementGuidId>
+   <elementGuidId>3dc19416-e5b9-4a3a-8460-c2cc3cda541b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>id(&quot;21&quot;)/a[@class=&quot;layer2&quot;]</value>
+         <value>id(&quot;114&quot;)/a[@class=&quot;layer2&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Acrylics' or . = 'Acrylics')]</value>
+         <value>id(&quot;114&quot;)/a[@class=&quot;layer2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,17 +31,17 @@
       <value>layer2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Acrylics</value>
+      <value>Teller Line Numbers</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;21&quot;)/a[@class=&quot;layer2&quot;]</value>
+      <value>id(&quot;114&quot;)/a[@class=&quot;layer2&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
