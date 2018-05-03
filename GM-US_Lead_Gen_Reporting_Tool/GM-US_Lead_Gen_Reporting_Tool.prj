@@ -4,5 +4,6 @@
    <name>GM-US_Lead_Gen_Reporting_Tool</name>
    <tag></tag>
    <UUID>986ce323-c278-4c1b-a1f3-36045bea318f</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

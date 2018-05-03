@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GM-Staging Reporting Tool Suite,,For the GM Staging Server,2018-05-03 15:37:15,2018-05-03 15:38:04,48.294s,FAILED
+,,,,,,
+Test Cases/Staging Server-Browser Start,,,2018-05-03 15:37:16,2018-05-03 15:37:41,25.009s,FAILED
+openBrowser,,,2018-05-03 15:37:16,2018-05-03 15:37:27,10.701s,PASSED
+maximizeWindow,,,2018-05-03 15:37:27,2018-05-03 15:37:35,8.047s,PASSED
+navigateToUrl,,,2018-05-03 15:37:35,2018-05-03 15:37:41,6.015s,FAILED
+,,,,,,
+Test Cases/Logging In,,Test logging in to the US Reporting Tool,2018-05-03 15:37:41,2018-05-03 15:37:49,8.175s,FAILED
+openBrowser,,,2018-05-03 15:37:41,2018-05-03 15:37:41,0.002s,NOT_RUN
+delay,,,2018-05-03 15:37:41,2018-05-03 15:37:41,0.001s,NOT_RUN
+maximizeWindow,,,2018-05-03 15:37:41,2018-05-03 15:37:41,0.000s,NOT_RUN
+navigateToUrl,,,2018-05-03 15:37:41,2018-05-03 15:37:41,0.000s,NOT_RUN
+comment,,,2018-05-03 15:37:41,2018-05-03 15:37:41,0.014s,PASSED
+delay,,,2018-05-03 15:37:41,2018-05-03 15:37:43,2.007s,PASSED
+click,,,2018-05-03 15:37:43,2018-05-03 15:37:49,6.040s,FAILED
+,,,,,,
+Test Cases/Button Pushes,,This test will just push each button in the website.,2018-05-03 15:37:49,2018-05-03 15:37:55,6.172s,FAILED
+openBrowser,,,2018-05-03 15:37:49,2018-05-03 15:37:49,0.001s,NOT_RUN
+navigateToUrl,,,2018-05-03 15:37:49,2018-05-03 15:37:49,0.001s,NOT_RUN
+maximizeWindow,,,2018-05-03 15:37:49,2018-05-03 15:37:49,0.001s,NOT_RUN
+callTestCase,,,2018-05-03 15:37:49,2018-05-03 15:37:49,0.001s,NOT_RUN
+comment,,,2018-05-03 15:37:49,2018-05-03 15:37:49,0.001s,PASSED
+mouseOver,,,2018-05-03 15:37:49,2018-05-03 15:37:55,6.016s,FAILED
+,,,,,,
+Test Cases/Logging Out,,Logging out of the US Lead Gen Reporting Tool,2018-05-03 15:37:55,2018-05-03 15:38:01,6.120s,FAILED
+openBrowser,,,2018-05-03 15:37:55,2018-05-03 15:37:55,0.000s,NOT_RUN
+navigateToUrl,,,2018-05-03 15:37:55,2018-05-03 15:37:55,0.000s,NOT_RUN
+maximizeWindow,,,2018-05-03 15:37:55,2018-05-03 15:37:55,0.001s,NOT_RUN
+callTestCase,,,2018-05-03 15:37:55,2018-05-03 15:37:55,0.001s,NOT_RUN
+comment,,,2018-05-03 15:37:55,2018-05-03 15:37:55,0.001s,PASSED
+mouseOver,,,2018-05-03 15:37:55,2018-05-03 15:38:01,6.010s,FAILED

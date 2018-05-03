@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test will just push each button in the website.</description>
+   <name>Button Pushes</name>
+   <tag></tag>
+   <comment>These are disabled for a reason. DO NOT ENABLE UNLESS YOU ARE TESTING THIS PART ONLY
+Mouse over is used to hover over &quot;Administration&quot;</comment>
+   <testCaseGuid>b493ca55-363d-4449-81f5-b09132e5fe31</testCaseGuid>
+</TestCaseEntity>

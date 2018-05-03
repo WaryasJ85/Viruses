@@ -4,7 +4,7 @@
    <name>GM- Reporting tool suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-29T15:16:48</lastRun>
+   <lastRun>2018-05-03T13:27:41</lastRun>
    <mailRecipient>jwaryas@bluewatertech.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -24,10 +24,10 @@
       <testCaseId>Test Cases/Logging In</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c073221-077f-40e6-9a28-6e53fac7ce2e</guid>
+      <guid>e95a6f11-6692-44bd-9dfc-a8d0ddc9d4f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Push all the buttons</testCaseId>
+      <testCaseId>Test Cases/Button Pushes</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>25dd2e3f-1c55-4328-8f5f-d6d3bd6110c1</guid>
