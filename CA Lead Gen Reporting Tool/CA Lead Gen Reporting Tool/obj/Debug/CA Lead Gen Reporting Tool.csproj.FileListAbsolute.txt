@@ -1,0 +1,30 @@
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\CA Lead Gen Reporting Tool.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\CA Lead Gen Reporting Tool.pdb
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\WebDriver.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\WebDriver.Support.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\WebDriver.xml
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\WebDriver.Support.xml
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\obj\Debug\CA Lead Gen Reporting Tool.csprojAssemblyReference.cache
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\obj\Debug\CA Lead Gen Reporting Tool.csproj.CoreCompileInputs.cache
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\obj\Debug\CA Lead Gen Reporting Tool.csproj.CopyComplete
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\obj\Debug\CA Lead Gen Reporting Tool.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\obj\Debug\CA Lead Gen Reporting Tool.pdb
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Equip.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\NuGet.Core.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Selenium.WebDriver.Equip.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Equip.pdb
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Selenium.WebDriver.Equip.pdb
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\nunit.framework.dll
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\nunit.framework.pdb
+D:\Projects\VS Projects\TestCases\CA Lead Gen Reporting Tool\CA Lead Gen Reporting Tool\bin\Debug\nunit.framework.xml
